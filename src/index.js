@@ -6,9 +6,11 @@ import App from './App'
 import Whitepaper from './Whitepaper'
 import ToS from './ToS'
 import LoginPage from 'LoginPage'
+import Header from 'Header'
 
 ReactDOM.render(
   <React.StrictMode>
+  <Header/>
     <BrowserRouter>
       <Routes>
         <Route exact path='/whitepaper' element={<Whitepaper />} />
